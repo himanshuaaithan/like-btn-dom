@@ -4,19 +4,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> like button</title>
+    <title>instgram like button </title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
 </head>
 
 <body>
-    <div class="post">
-        <img src="car.jpg" alt="">
-        <i class="ri-heart-3-fill"></i>
-    </div>
-     <h1>Porsche 911 GT3 RS</h1>
-    
+    <main>
+        <div id="card">
+            <div class="name">
+                <div class="pfp">
+                    <img src="imgs/pfp.jpg" alt="">
+                    <h1>codeelevate._ <br> following</h1>
+                    <h1>15h</h1>
+                </div>
+                <i class="ri-more-2-fill"></i>
+            </div>
+            <div class="img">
+                <img src="imgs/picture.jpg" alt="">
+                <i id="love" class="ri-heart-3-fill"></i>
+            </div>
+            <div class="likebtn">
+                <div class="likebtnleft">
+                    <div id="heart">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                    <i class="ri-chat-3-line"></i>
+                    <i class="ri-share-forward-line"></i>
+                </div>
+                <i class="fa-regular fa-bookmark"></i>
+            </div>
+            <div class="likecount">
+                <h1></h1>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 
 </html>
